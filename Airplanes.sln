@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5ADC7434-6242-4825-BDA8-873A44ECE80A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{4A173601-A044-4F6B-8573-9B778428DC03}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{829CEF80-572E-48C3-9778-2815C1C636F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airplanes", "src\Airplanes\Airplanes.csproj", "{F06B91F7-5A99-42B2-910C-325239EB2817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F06B91F7-5A99-42B2-910C-325239EB2817} = {5ADC7434-6242-4825-BDA8-873A44ECE80A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F06B91F7-5A99-42B2-910C-325239EB2817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06B91F7-5A99-42B2-910C-325239EB2817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06B91F7-5A99-42B2-910C-325239EB2817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06B91F7-5A99-42B2-910C-325239EB2817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
